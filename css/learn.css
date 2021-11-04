@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', serif;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 24px 145px;
+    justify-content: space-between;
+}
+.header-logo{
+    max-width: 40px;
+    text-decoration: none;
+    display: flex;
+}
+.header-heading-text{
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+}
+.header-menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+.header-choice-a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+.header-choice-a-now{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    text-decoration: none;
+}
+.sign-in-button{
+    border: 1px solid #BCD0E5;
+    margin-left: 25px;
+    padding: 10px 23px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.sign-up-button{
+    background: #02897A;
+    border-radius: 4px;
+    margin-left: 25px;
+    padding: 8px 21px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.theme-button{
+    margin-left: 25px;
+    border: none;
+    padding: 4px;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+}
