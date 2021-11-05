@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>WebLearn</title>
     <link rel="stylesheet" href="./css/learn.css">
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
-<body class="container">
-  <header class="header">
-    <a href="main.html" class="header-logo">
-      <img src="./imgs/logo.svg" class="header-logo-img">
-      <h1 class="header-heading-text">Product</h1>
-    </a>
-    <ul class="header-menu">
-      <li class="header-choice"><a href="#" class="header-choice-a-now">Product</a></li>
-      <li class="header-choice"><a href="#" class="header-choice-a">Customers</a></li>
-      <li class="header-choice"><a href="#" class="header-choice-a">Pricing</a></li>
-      <li class="header-choice"><a href="#" class="header-choice-a">Resources</a></li>
-    </ul>
-    <button type="button" class="sign-in-button">Sign In</button>
-    <button type="button" class="sign-up-button">Sign Up</button>
-    <button type="button" class="theme-button">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
-        <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
-        <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
-      </svg>
-    </button>
-  </header>
+<body>
+    <header class="header container">
+      <a href="main.html" class="header-logo">
+        <img src="./imgs/logo.svg" class="header-logo-img" alt="logo">
+        <h1 class="header-heading-text">Product</h1>
+      </a>
+      <ul class="header-menu">
+        <li class="header-choice"><a href="#" class="header-choice-a-now">Product</a></li>
+        <li class="header-choice"><a href="#" class="header-choice-a">Customers</a></li>
+        <li class="header-choice"><a href="#" class="header-choice-a">Pricing</a></li>
+        <li class="header-choice"><a href="#" class="header-choice-a">Resources</a></li>
+      </ul>
+      <button type="button" class="sign-in-button">Sign In</button>
+      <button type="button" class="sign-up-button">Sign Up</button>
+      <button type="button" class="theme-button">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
+          <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
+          <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
+        </svg>
+      </button>
+    </header>
+    <div class="slide container">
+      <div class="slide-text">
+        <div class="slide-text-header">
+          <h2 class="slide-title">Work at the speed
+            of thought</h2>
+          <p class="slide-description">Tools, tutorials, design and innovation experts,
+            all in one place! The most intuitive way to imagine your next user experience.</p>
+        </div>
+        <div class="slide-text-footer">
+          <button type="button" class="get-started-button">Get started</button>
+          <a href="#" class="watch-wideo">
+            <img src="./imgs/watch-video-icon.svg" alt="watch video icon">
+            <h3 class="watch-wideo-text">Watch the Video</h3>
+          </a>
+        </div>
+      </div>
+      <img class="slide-img" src="./imgs/social-media/amico.png" alt="slide image">
+    </div>
+    <div class="product-specifiety">
+    </div>
 </body>
 </html>
