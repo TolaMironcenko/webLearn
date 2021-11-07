@@ -149,6 +149,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 90px;
 }
 .specifiety-heading{
     margin: auto;
@@ -225,13 +226,14 @@ body{
     border-radius: 19px;
 }
 .button1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 14px;
     padding-top: 14px;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 30px;
-    margin-left: 620px;
-    margin-bottom: 90px;
 }
 .management{
     margin-top: 150px;
@@ -446,7 +448,208 @@ body{
 }
 .button2{
     margin-top: 25px;
-    position: absolute;
-    left: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-
+.content-strategies{
+    margin-top: 180px;
+}
+.content{
+    margin-left: 145px;
+    margin-right: 145px;
+}
+.content-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 8px;
+    color: #22343D;
+}
+.content-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 8px;
+    color: #22343D;
+    margin-bottom: 35px;
+}
+.content-cards{
+    display: flex;
+    padding: -15px;
+    margin-bottom: 65px;
+}
+.content-card{
+    width: 348px;
+    border-radius: 8px;
+    border: 1px solid #DEDEDE;
+    overflow: hidden;
+    margin: 15px;
+}
+.content-card-img{
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.content-card-description{
+    display: flex;
+    margin-left: 24px;
+}
+.content-card-description-normal{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    margin-right: 5px;
+}
+.content-card-description-bold{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    margin-right: 5px;
+}
+.content-card-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    margin-left: 24px;
+    width: 250px;
+}
+.card2-heading{
+    color: #02897A;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    padding: -10px;
+}
+.menu-choce{
+    background: #EFEFEF;
+    border-radius: 50%;
+    margin: 10px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+}
+.menu-choce-now{
+    background: #02897A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.price-table{
+    margin-top: 150px;
+}
+.price-heading{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 8px;
+    color: #22343D;
+}
+.price-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 8px;
+    color: #22343D;
+    text-align: center;
+}
+.price-cards{
+    margin-right: 145px;
+    margin-left: 145px;
+    margin-top: 50px;
+    display: flex;
+    padding: -35px;
+}
+.price-card{
+    width: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin: 35px;
+}
+.price-card-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 8px;
+    color: #22343D;
+    margin-top: 25px;
+}
+.price-card-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 8px;
+    color: #22343D;
+}
+.price-card-cost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-card-cost-numb{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 8px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #02897A;
+    margin-right: 8px;
+}
+.price-card-cost-per-month-doll{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 4px;
+    text-align: left;
+    color: #02897A;
+}
+.price-card-cost-per-month-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 4px;
+    color: #AFAFAF;
+}
+.price-card-description2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #22343D;
+}
+.order-button{
+    border: none;
+    background: #02897A;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 11px 18px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.card2{
+    background: #02897A;
+}
+.heading2{
+    color: #FFFFFF;
+}
+.order-button2{
+    background: #FFFFFF;
+    color: #02897A;
+}
