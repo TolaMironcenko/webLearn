@@ -654,6 +654,7 @@ body{
     color: #02897A;
 }
 .clients-say{
+    margin-bottom: 150px;
 }
 .clients-heading{
     font-style: normal;
@@ -736,4 +737,120 @@ body{
     font-size: 14px;
     line-height: 0px;
     color: #252B42;
+}
+.slide-footer{
+    width: 970px;
+    background: #02897A;
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.slide-footer-text{
+}
+.slide-footer-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+}
+.slide-footer-button{
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #02897A;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+}
+.footer-logo{
+    margin-left: 145px;
+}
+.social-links{
+    padding: -15px;
+    display: flex;
+    margin-left: 130px;
+}
+.social-link-rectangle{
+    background: #EDFFFC;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+.social-link{
+
+}
+.resource{
+    margin-left: 160px;
+}
+.resource-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 8px;
+    color: #22343D;
+    margin-left: 40px;
+}
+.resourses{
+    list-style-type: none;
+    margin-bottom: 85px;
+}
+.resourse-li{
+}
+.resourse-a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #22343D;
+}
+.stuff{
+    margin-left: 130px;
+}
+.form-sign-now{
+    margin-left: 90px;
+    margin-right: 140px;
+}
+.form-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+}
+.form-input{
+    margin-top: 35px;
+    display: block;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+.form-button{
+    background: #02897A;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
 }
