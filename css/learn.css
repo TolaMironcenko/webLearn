@@ -653,3 +653,87 @@ body{
     background: #FFFFFF;
     color: #02897A;
 }
+.clients-say{
+}
+.clients-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 8px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+    margin-top: 150px;
+}
+.clients-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+.clients-cards{
+    margin-left: 145px;
+    margin-right: 145px;
+    display: flex;
+    margin-top: 50px;
+    padding: -35px;
+}
+.clients-card{
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    width: 325px;
+    padding: 25px;
+    margin: 35px;
+}
+.stars{
+    display: flex;
+    padding: -4px;
+}
+.star{
+    margin: 4px;
+}
+.clients-card-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.clients-people-card{
+    display: flex;
+    align-items: center;
+}
+.people-img{
+    border: 1px solid #BDBDBD;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.people-card-img{
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.people-text{
+    margin-left: 14px;
+}
+.people-text-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+.people-text-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    color: #252B42;
+}
