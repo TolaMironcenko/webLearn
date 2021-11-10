@@ -6,7 +6,8 @@ body{
 }
 .container{
     max-width: 1400px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header{
     display: flex;
@@ -15,7 +16,7 @@ body{
     justify-content: space-between;
 }
 .header-logo{
-    max-width: 40px;
+    max-width: 150px;
     text-decoration: none;
     display: flex;
 }
@@ -162,8 +163,8 @@ body{
     color: #22343D;
 }
 .specifiety-cards{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 65px;
     display: flex;
     padding: -45px;
@@ -378,8 +379,8 @@ body{
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
-    margin-right: 240px;
-    margin-left: 240px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .quick-easy-card-left-img{
     display: flex;
@@ -476,7 +477,7 @@ body{
 }
 .content-cards{
     display: flex;
-    padding: -15px;
+    padding: -5px;
     margin-bottom: 65px;
 }
 .content-card{
@@ -484,7 +485,7 @@ body{
     border-radius: 8px;
     border: 1px solid #DEDEDE;
     overflow: hidden;
-    margin: 15px;
+    margin: 5px;
 }
 .content-card-img{
     left: 0;
@@ -571,7 +572,7 @@ body{
 .price-card{
     width: 323px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
@@ -727,7 +728,7 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 0px;
+    line-height: 0;
     letter-spacing: 0.2px;
     color: #02897A;
 }
@@ -735,7 +736,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0px;
+    line-height: 0;
     color: #252B42;
 }
 .slide-footer{
@@ -853,4 +854,100 @@ body{
     border: none;
     margin-top: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .container{
+        max-width: 1024px;
+    }
+    .clients-cards{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .clients-card{
+    }
+    .resource{
+        margin-left: 20px;
+    }
+    .stuff{
+        margin-left: 20px;
+    }
+    .customer-img{
+        margin-left: 0;
+    }
+    .manegement-text{
+        margin-left: 0;
+    }
+    .slide-text{
+        margin-left: 0;
+    }
+    .slide{
+        justify-content: space-between;
+    }
+    .slide-img{
+        margin-right: 0;
+    }
+    .management-img{
+        margin-right: 0;
+    }
+    .resource-heading{
+        line-height: 20px;
+    }
+    .header{
+        padding: 0;
+    }
+    .price-cards{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .content{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .form-sign-now{
+        margin-right: 0;
+    }
+    .footer-logo{
+        margin-left: 0;
+    }
+    .social-links{
+        margin-left: 0;
+    }
+    .footer{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container{
+        max-width: 570px;
+    }
+    .specifiety-cards{
+        flex-wrap: wrap;
+    }
+    .specifiety-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .content-cards{
+        flex-wrap: wrap;
+    }
+    .content-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price-cards{
+        flex-wrap: wrap;
+    }
+    .price-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .clients-cards{
+        flex-wrap: wrap;
+    }
+    .clients-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
